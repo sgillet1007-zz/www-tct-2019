@@ -1,13 +1,9 @@
 import React from 'react'
 import AudioPlayer from 'react-modular-audio-player';
 import play_arrow from '../images/icons/play_arrow.png'
-// import play_arrow_hover from '../images/icons/play_arrow_hover.png'
 import pause from '../images/icons/pause.png'
-// import pause_hover from '../images/icons/pause_hover.png'
 import forward from '../images/icons/forward.png'
-// import forward_hover from '../images/icons/forward_hover.png'
 import rewind from '../images/icons/rewind.png'
-// import rewind_hover from '../images/icons/rewind_hover.png'
 
   const tracks = [
       {

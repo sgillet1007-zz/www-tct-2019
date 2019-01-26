@@ -90,7 +90,7 @@ a {
     color: #fffff7;
 }
 
-a:hover {
+.nav-link:hover {
     color: #fff9c4;
     transform: scale(1.1);
 }

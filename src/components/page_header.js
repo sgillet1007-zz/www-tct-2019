@@ -1,5 +1,5 @@
 import React, { Component} from "react"
-import { Link } from "gatsby"
+import { Link } from 'react-router-dom'
 import expand_menu from '../images/icons/expand_menu.png'
 import expand_less from '../images/icons/expand_less.png'
 
@@ -37,7 +37,7 @@ export default class PageHeader extends Component {
                 <span id='toggle_nav_tray' onClick={this.onToggle}>{this.renderNavToggle()}</span>
                 <div id='band_name_container'>
                     <hr className='decoration' />
-                        <Link id='band_name' to="/">The Constant Tourists</Link>
+                        <span id='band_name' to="/">The Constant Tourists</span>
                     <hr className='decoration' />
                 </div>
                 {this.state.show_nav && (
